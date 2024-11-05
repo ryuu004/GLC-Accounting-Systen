@@ -53,8 +53,8 @@
 <!-- Net Amount Display -->
 <div class="container mx-auto p-4 mt-20">
     <div class="my-4 p-4 bg-gray-50 p-6 rounded-lg shadow-lg text-green-900 text-center">
-        <h2 class="text-3xl font-bold">₱{{ number_format($netAmount, 2) }}</h2> <!-- Increased font size -->
-        <p class="text-base">Net Amount</p> <!-- Increased font size -->
+        <h2 class="text-3xl font-bold">₱{{ number_format($netAmount, 2) }}</h2>
+        <p class="text-base">Net Amount</p>
     </div>
 </div>
 
